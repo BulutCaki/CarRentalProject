@@ -65,15 +65,15 @@ namespace ConsoleIU
             _colorManager.Add(new Color { Name = "Mavi" });
         }
 
-        private static void addCars()
-        {
-            _carManager.Add(new Car { BrandId = 1, ColorId = 1, ModelYear = 2021, CarName = "BENZ", DailyPrice = 270, Description = "Son model siyah Mercedes BENZ" });
-            _carManager.Add(new Car { BrandId = 1, ColorId = 2, ModelYear = 2018, CarName = "BENZ", DailyPrice = 200, Description = "2018 model beyaz Mercedes BENZ" });
-            _carManager.Add(new Car { BrandId = 2, ColorId = 1, ModelYear = 2021, CarName = "320i", DailyPrice = 270, Description = "Son model siyah BMW 320i" });
-            _carManager.Add(new Car { BrandId = 2, ColorId = 2, ModelYear = 2019, CarName = "320i", DailyPrice = 200, Description = "2019 model siyah BMW 320i" });
-            _carManager.Add(new Car { BrandId = 2, ColorId = 3, ModelYear = 2010, CarName = "Fluence", DailyPrice = 120, Description = "2010 model gri Renault Fluence" });
-            _carManager.Add(new Car { BrandId = 4, ColorId = 4, ModelYear = 2015, CarName = "Passat", DailyPrice = 170, Description = "2015 model siyah Volkswagen Passat" });
-            _carManager.Add(new Car { BrandId = 5, ColorId = 4, ModelYear = 2021, CarName = "Cruze", DailyPrice = 250, Description = "Son model gri Chevrolet Cruze" });
-        }
+        //private static void addCars()
+        //{
+        //    _carManager.Add(new Car { BrandId = 1, ColorId = 1, ModelYear = 2021, CarName = "BENZ", DailyPrice = 270, Description = "Son model siyah Mercedes BENZ" });
+        //    _carManager.Add(new Car { BrandId = 1, ColorId = 2, ModelYear = 2018, CarName = "BENZ", DailyPrice = 200, Description = "2018 model beyaz Mercedes BENZ" });
+        //    _carManager.Add(new Car { BrandId = 2, ColorId = 1, ModelYear = 2021, CarName = "320i", DailyPrice = 270, Description = "Son model siyah BMW 320i" });
+        //    _carManager.Add(new Car { BrandId = 2, ColorId = 2, ModelYear = 2019, CarName = "320i", DailyPrice = 200, Description = "2019 model siyah BMW 320i" });
+        //    _carManager.Add(new Car { BrandId = 2, ColorId = 3, ModelYear = 2010, CarName = "Fluence", DailyPrice = 120, Description = "2010 model gri Renault Fluence" });
+        //    _carManager.Add(new Car { BrandId = 4, ColorId = 4, ModelYear = 2015, CarName = "Passat", DailyPrice = 170, Description = "2015 model siyah Volkswagen Passat" });
+        //    _carManager.Add(new Car { BrandId = 5, ColorId = 4, ModelYear = 2021, CarName = "Cruze", DailyPrice = 250, Description = "Son model gri Chevrolet Cruze" });
+        //}
     }
 }

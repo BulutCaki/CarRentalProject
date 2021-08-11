@@ -32,5 +32,7 @@ namespace Business.Constants
         public  static string AuthorizationDenied = "Yetkiniz Yok";
         public static string UserDelete = "Kullanıcı Silindi";
         public static string Updated = "Güncellendi";
+
+        
     }
 }
